@@ -17,8 +17,7 @@ research_objects:
   kind: longitudinal-observational-study
   status: corpus-and-adjudication-in-progress
   public_state: metadata-and-methods-only
-  question: How does the architecture evolve, and what pressures precede structural
-    adaptation?
+  question: How does the architecture evolve, and what pressures precede structural adaptation?
   parents:
   - id: IF-R001
     relation: extends
@@ -28,8 +27,7 @@ research_objects:
   kind: prospective-experimental-study
   status: prespecification-in-progress
   public_state: methods-only
-  question: Does maturation of the architecture improve measurable knowledge-work
-    performance and reduce classified failures?
+  question: Does maturation of the architecture improve measurable knowledge-work performance and reduce classified failures?
   parents:
   - id: IF-R001
     relation: tests
@@ -41,8 +39,7 @@ research_objects:
   kind: conditional-comparative-study
   status: conditional
   public_state: metadata-and-methods-only
-  question: Do core mechanisms generalize across materially different application
-    environments?
+  question: Do core mechanisms generalize across materially different application environments?
   parents:
   - id: IF-R003
     relation: extends
@@ -51,9 +48,8 @@ research_objects:
   title: Goal Actualization and Outcome Measurement
   kind: research-program
   status: design
-  public_state: metadata-only
-  question: Can the architecture be evaluated against real goals, outcomes, revisions,
-    abandonment, and follow-up rather than repository activity alone?
+  public_state: metadata-and-methods-only
+  question: Can the architecture be evaluated against real goals, outcomes, revisions, abandonment, and follow-up rather than repository activity alone?
   parents:
   - id: IF-R003
     relation: extends
@@ -64,9 +60,8 @@ research_objects:
   title: Inception and Path Dependence
   kind: comparative-longitudinal-program
   status: prospective-design
-  public_state: metadata-only
-  question: How does initial architecture and onboarding pathway shape later system
-    structure and behavior?
+  public_state: metadata-and-methods-only
+  question: How does initial architecture and onboarding pathway shape later system structure and behavior?
   parents:
   - id: IF-R001
     relation: spawned-by
@@ -78,8 +73,7 @@ research_objects:
   kind: prospective-human-participant-experiment
   status: ethics-gated-design
   public_state: metadata-only
-  question: Does seed architecture predict early structural divergence, operating
-    behavior, recoverability, and maintenance burden?
+  question: Does seed architecture predict early structural divergence, operating behavior, recoverability, and maintenance burden?
   parents:
   - id: IF-R006
     relation: tests
@@ -89,8 +83,7 @@ research_objects:
   kind: longitudinal-comparative-study
   status: prospective-design
   public_state: metadata-only
-  question: How do descendant and sibling systems diverge or converge over time under
-    different owners and pressures?
+  question: How do descendant and sibling systems diverge or converge over time under different owners and pressures?
   parents:
   - id: IF-R006
     relation: extends
@@ -102,8 +95,7 @@ research_objects:
   kind: conceptual-lineage-study
   status: method-design
   public_state: metadata-and-methods-only
-  question: Which prior ideas are exposures, resemblances, distinctive continuities,
-    explicit lineages, or traced operational antecedents of the architecture?
+  question: Which prior ideas are exposures, resemblances, distinctive continuities, explicit lineages, or traced operational antecedents of the architecture?
   parents:
   - id: IF-R001
     relation: extends
@@ -113,8 +105,7 @@ research_objects:
   kind: hypothesis-program
   status: hypothesis
   public_state: metadata-only
-  question: Do deeply integrated human-AI systems spontaneously externalize owner
-    self-models as operational or knowledge artifacts?
+  question: Do deeply integrated human-AI systems spontaneously externalize owner self-models as operational or knowledge artifacts?
   parents:
   - id: IF-R008
     relation: spawned-by
@@ -124,8 +115,7 @@ research_objects:
   kind: external-validation-program
   status: prospective
   public_state: metadata-only
-  question: In which external settings does deployment of the architecture produce
-    the greatest measurable human benefit?
+  question: In which external settings does deployment of the architecture produce the greatest measurable human benefit?
   parents:
   - id: IF-R003
     relation: extends

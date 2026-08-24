@@ -1,0 +1,18 @@
+id: IF-R009
+slug: intellectual-antecedents
+title: Intellectual Antecedents and Conceptual Lineage
+kind: conceptual-lineage-study
+status: method-design
+public_state: metadata-and-methods-only
+created: null
+question: Which prior ideas are exposures, resemblances, distinctive continuities, explicit lineages, or traced operational antecedents of the architecture?
+parents:
+  - id: IF-R001
+    relation: extends
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - exposure does not establish causal influence
+  - private autobiographical source material remains restricted unless explicitly approved
+  - similarity alone cannot be promoted to lineage causation

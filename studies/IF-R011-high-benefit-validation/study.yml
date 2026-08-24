@@ -1,0 +1,22 @@
+id: IF-R011
+slug: high-benefit-validation
+title: High-Benefit External Validation
+kind: external-validation-program
+status: prospective
+public_state: metadata-only
+created: null
+question: In which external settings does deployment of the architecture produce the greatest measurable human benefit?
+parents:
+  - id: IF-R003
+    relation: extends
+  - id: IF-R004
+    relation: generalizes
+  - id: IF-R005
+    relation: tests
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - external settings require domain-appropriate outcome definitions
+  - deployment benefit claims require independent evidence beyond repository activity
+  - participant, institutional, and privacy requirements apply before data collection

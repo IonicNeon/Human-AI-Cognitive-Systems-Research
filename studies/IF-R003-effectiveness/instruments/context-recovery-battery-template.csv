@@ -1,0 +1,6 @@
+item_id,stratum,status,freeze_version,public_prompt_or_description,notes
+IF-P3-Q001,context-recovery,candidate,,,
+IF-P3-Q002,provenance,candidate,,,
+IF-P3-Q003,authority-discrimination,candidate,,,
+IF-P3-Q004,unknown-detection,candidate,,,
+IF-P3-Q005,stale-state-detection,candidate,,,

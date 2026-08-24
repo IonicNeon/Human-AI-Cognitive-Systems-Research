@@ -1,0 +1,15 @@
+id: IF-R001
+slug: birth
+title: Birth and Emergence of Idea-Foundry
+kind: longitudinal-historical-case-study
+status: internal-review
+public_state: metadata-and-methods-only
+created: null
+question: How did the system emerge from concept into a governed operational architecture?
+parents: []
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - historical reconstruction remains provisional until owner/method review
+  - raw private provenance remains outside the public repository

@@ -1,0 +1,20 @@
+id: IF-R003
+slug: effectiveness
+title: Prospective Effectiveness, Replay, and Mechanism Ablation
+kind: prospective-experimental-study
+status: prespecification-in-progress
+public_state: methods-only
+created: null
+question: Does maturation of the architecture improve measurable knowledge-work performance and reduce classified failures?
+parents:
+  - id: IF-R001
+    relation: tests
+  - id: IF-R002
+    relation: operationalizes
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - no controlled effectiveness result is currently claimed
+  - hidden answer keys and private benchmark evidence remain restricted
+  - confirmatory protocol changes after outcome exposure require dated amendment

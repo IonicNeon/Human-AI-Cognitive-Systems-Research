@@ -1,0 +1,18 @@
+id: IF-R004
+slug: cross-domain
+title: Cross-Domain Generalization
+kind: conditional-comparative-study
+status: conditional
+public_state: metadata-and-methods-only
+created: null
+question: Do core mechanisms generalize across materially different application environments?
+parents:
+  - id: IF-R003
+    relation: extends
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - descriptive reuse is not outcome generalization
+  - positive standalone claim requires the prespecified qualification threshold
+  - negative and nonqualifying mechanisms remain in the analysis population

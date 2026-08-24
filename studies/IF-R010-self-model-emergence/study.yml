@@ -1,0 +1,18 @@
+id: IF-R010
+slug: self-model-emergence
+title: Self-Model Emergence Hypothesis
+kind: hypothesis-program
+status: hypothesis
+public_state: metadata-only
+created: null
+question: Do deeply integrated human-AI systems spontaneously externalize owner self-models as operational or knowledge artifacts?
+parents:
+  - id: IF-R008
+    relation: spawned-by
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - presence/timing/structural role should be studied before semantic personality content
+  - semantic self-model analysis requires explicit participant consent
+  - current status is hypothesis, not established common behavior
