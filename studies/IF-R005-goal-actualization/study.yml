@@ -1,0 +1,20 @@
+id: IF-R005
+slug: goal-actualization
+title: Goal Actualization and Outcome Measurement
+kind: research-program
+status: design
+public_state: metadata-and-methods-only
+created: null
+question: Can the architecture be evaluated against real goals, outcomes, revisions, abandonment, and follow-up rather than repository activity alone?
+parents:
+  - id: IF-R003
+    relation: extends
+  - id: IF-R004
+    relation: extends
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - repository activity is not treated as goal attainment
+  - successful, failed, stalled, abandoned, and revised projects remain in the population
+  - causal interpretation must account for project and resource confounds
