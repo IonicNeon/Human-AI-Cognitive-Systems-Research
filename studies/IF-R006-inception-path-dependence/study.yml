@@ -1,0 +1,19 @@
+id: IF-R006
+slug: inception-path-dependence
+title: Inception and Path Dependence
+kind: comparative-longitudinal-program
+status: prospective-design
+public_state: metadata-and-methods-only
+created: null
+question: How does initial architecture and onboarding pathway shape later system structure and behavior?
+parents:
+  - id: IF-R001
+    relation: spawned-by
+  - id: IF-R002
+    relation: extends
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - exploratory sibling comparisons do not establish seed causation
+  - identifiable cross-owner data require explicit consent and appropriate ethics review
