@@ -1,0 +1,36 @@
+name: Validate research structure
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install validator dependency
+        run: python -m pip install --disable-pip-version-check 'PyYAML==6.0.2'
+
+      - name: Validate registry and study structure
+        run: python methods/reproducibility/validate_research_structure.py
+
+      - name: Compile released Python analysis code
+        run: |
+          python -m py_compile \
+            studies/IF-R003-effectiveness/analysis/score_context_recovery.py \
+            studies/IF-R003-effectiveness/analysis/compare_context_runs.py \
+            studies/IF-R004-cross-domain/analysis/evaluate_generalization.py \
+            methods/reproducibility/validate_research_structure.py
