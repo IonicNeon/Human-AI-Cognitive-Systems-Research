@@ -1,0 +1,18 @@
+id: IF-R007
+slug: seeded-onboarding
+title: Seeded Onboarding Experiment
+kind: prospective-human-participant-experiment
+status: ethics-gated-design
+public_state: metadata-only
+created: null
+question: Does seed architecture predict early structural divergence, operating behavior, recoverability, and maintenance burden?
+parents:
+  - id: IF-R006
+    relation: tests
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - human-participant manipulation requires appropriate ethics or IRB determination
+  - seed conditions and outcomes must be frozen before recruitment or confirmatory observation
+  - no covert repository access or hidden semantic/personality analysis
