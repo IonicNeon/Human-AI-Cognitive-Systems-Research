@@ -1,0 +1,17 @@
+id: IF-R002
+slug: evolution
+title: Longitudinal Capability Evolution and Selection Pressures
+kind: longitudinal-observational-study
+status: corpus-and-adjudication-in-progress
+public_state: metadata-and-methods-only
+created: null
+question: How does the architecture evolve, and what pressures precede structural adaptation?
+parents:
+  - id: IF-R001
+    relation: extends
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - candidate events are non-results until adjudicated
+  - rejected and deferred events remain auditable
