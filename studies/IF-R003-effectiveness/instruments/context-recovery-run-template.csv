@@ -1,0 +1,11 @@
+item_id,accuracy_score,evidence_exact,unsupported_claim_count,unknown_correct,authoritative_source_correct,stale_state_error,elapsed_seconds,tool_calls,invalid_reason
+IF-P3-Q001,,,,,,,,,
+IF-P3-Q002,,,,,,,,,
+IF-P3-Q003,,,,,,,,,
+IF-P3-Q004,,,,,,,,,
+IF-P3-Q005,,,,,,,,,
+IF-P3-Q006,,,,,,,,,
+IF-P3-Q007,,,,,,,,,
+IF-P3-Q008,,,,,,,,,
+IF-P3-Q009,,,,,,,,,
+IF-P3-Q010,,,,,,,,,
