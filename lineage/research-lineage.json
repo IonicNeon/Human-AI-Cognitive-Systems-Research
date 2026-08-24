@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "canonical_source": "../research-registry.yml",
+  "generated": false,
+  "note": "Bootstrap machine-readable view; future versions should be generated from the registry.",
+  "nodes": [
+    "IF-R001",
+    "IF-R002",
+    "IF-R003",
+    "IF-R004",
+    "IF-R005",
+    "IF-R006",
+    "IF-R007",
+    "IF-R008",
+    "IF-R009",
+    "IF-R010",
+    "IF-R011"
+  ]
+}

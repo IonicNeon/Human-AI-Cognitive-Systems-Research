@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite the relevant IF-R study and release when available."
+title: "Human-AI Cognitive Systems Research"
+type: dataset
+authors:
+  - name: "IonicNeon"
+repository-code: "https://github.com/IonicNeon/Human-AI-Cognitive-Systems-Research"
+url: "https://github.com/IonicNeon/Human-AI-Cognitive-Systems-Research"
+license: "CC-BY-4.0"
+version: "0.1.0"
+date-released: 2026-08-24
+keywords:
+  - human-AI collaboration
+  - knowledge systems
+  - open science
+  - reproducible research
+  - provenance

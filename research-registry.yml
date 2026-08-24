@@ -1,0 +1,135 @@
+registry_version: 0.1
+updated: '2026-08-24'
+identity_rule: stable_research_ids_independent_of_publication_number
+public_registry: true
+research_objects:
+- id: IF-R001
+  slug: birth
+  title: Birth and Emergence of Idea-Foundry
+  kind: longitudinal-historical-case-study
+  status: internal-review
+  public_state: metadata-and-methods-only
+  question: How did the system emerge from concept into a governed operational architecture?
+  parents: []
+- id: IF-R002
+  slug: evolution
+  title: Longitudinal Capability Evolution and Selection Pressures
+  kind: longitudinal-observational-study
+  status: corpus-and-adjudication-in-progress
+  public_state: metadata-and-methods-only
+  question: How does the architecture evolve, and what pressures precede structural
+    adaptation?
+  parents:
+  - id: IF-R001
+    relation: extends
+- id: IF-R003
+  slug: effectiveness
+  title: Prospective Effectiveness, Replay, and Mechanism Ablation
+  kind: prospective-experimental-study
+  status: prespecification-in-progress
+  public_state: methods-only
+  question: Does maturation of the architecture improve measurable knowledge-work
+    performance and reduce classified failures?
+  parents:
+  - id: IF-R001
+    relation: tests
+  - id: IF-R002
+    relation: operationalizes
+- id: IF-R004
+  slug: cross-domain
+  title: Cross-Domain Generalization
+  kind: conditional-comparative-study
+  status: conditional
+  public_state: metadata-and-methods-only
+  question: Do core mechanisms generalize across materially different application
+    environments?
+  parents:
+  - id: IF-R003
+    relation: extends
+- id: IF-R005
+  slug: goal-actualization
+  title: Goal Actualization and Outcome Measurement
+  kind: research-program
+  status: design
+  public_state: metadata-only
+  question: Can the architecture be evaluated against real goals, outcomes, revisions,
+    abandonment, and follow-up rather than repository activity alone?
+  parents:
+  - id: IF-R003
+    relation: extends
+  - id: IF-R004
+    relation: extends
+- id: IF-R006
+  slug: inception-path-dependence
+  title: Inception and Path Dependence
+  kind: comparative-longitudinal-program
+  status: prospective-design
+  public_state: metadata-only
+  question: How does initial architecture and onboarding pathway shape later system
+    structure and behavior?
+  parents:
+  - id: IF-R001
+    relation: spawned-by
+  - id: IF-R002
+    relation: extends
+- id: IF-R007
+  slug: seeded-onboarding
+  title: Seeded Onboarding Experiment
+  kind: prospective-human-participant-experiment
+  status: ethics-gated-design
+  public_state: metadata-only
+  question: Does seed architecture predict early structural divergence, operating
+    behavior, recoverability, and maintenance burden?
+  parents:
+  - id: IF-R006
+    relation: tests
+- id: IF-R008
+  slug: lineage-drift
+  title: Structural and Knowledge Drift in System Lineages
+  kind: longitudinal-comparative-study
+  status: prospective-design
+  public_state: metadata-only
+  question: How do descendant and sibling systems diverge or converge over time under
+    different owners and pressures?
+  parents:
+  - id: IF-R006
+    relation: extends
+  - id: IF-R007
+    relation: extends
+- id: IF-R009
+  slug: intellectual-antecedents
+  title: Intellectual Antecedents and Conceptual Lineage
+  kind: conceptual-lineage-study
+  status: method-design
+  public_state: metadata-and-methods-only
+  question: Which prior ideas are exposures, resemblances, distinctive continuities,
+    explicit lineages, or traced operational antecedents of the architecture?
+  parents:
+  - id: IF-R001
+    relation: extends
+- id: IF-R010
+  slug: self-model-emergence
+  title: Self-Model Emergence Hypothesis
+  kind: hypothesis-program
+  status: hypothesis
+  public_state: metadata-only
+  question: Do deeply integrated human-AI systems spontaneously externalize owner
+    self-models as operational or knowledge artifacts?
+  parents:
+  - id: IF-R008
+    relation: spawned-by
+- id: IF-R011
+  slug: high-benefit-validation
+  title: High-Benefit External Validation
+  kind: external-validation-program
+  status: prospective
+  public_state: metadata-only
+  question: In which external settings does deployment of the architecture produce
+    the greatest measurable human benefit?
+  parents:
+  - id: IF-R003
+    relation: extends
+  - id: IF-R004
+    relation: generalizes
+  - id: IF-R005
+    relation: tests
