@@ -1,0 +1,20 @@
+id: IF-R008
+slug: lineage-drift
+title: Structural and Knowledge Drift in System Lineages
+kind: longitudinal-comparative-study
+status: prospective-design
+public_state: metadata-only
+created: null
+question: How do descendant and sibling systems diverge or converge over time under different owners and pressures?
+parents:
+  - id: IF-R006
+    relation: extends
+  - id: IF-R007
+    relation: extends
+claims: []
+registrations: []
+outputs: []
+release_constraints:
+  - structural and knowledge/content drift are measured separately
+  - owner and participant privacy constraints apply to semantic content
+  - commit authorship is not treated as intellectual-origin proof
