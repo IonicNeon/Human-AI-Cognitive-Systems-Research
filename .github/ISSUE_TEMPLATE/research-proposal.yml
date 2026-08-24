@@ -1,0 +1,29 @@
+name: Research object proposal
+description: Propose a materially distinct research question or branch
+title: "Research proposal: "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+    validations:
+      required: true
+  - type: textarea
+    id: distinction
+    attributes:
+      label: Why materially distinct?
+    validations:
+      required: true
+  - type: textarea
+    id: lineage
+    attributes:
+      label: Proposed lineage
+      description: Parent/related IF-R objects and relation types.
+  - type: textarea
+    id: design
+    attributes:
+      label: Evidence and design
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Privacy, rights, security, or ethics constraints

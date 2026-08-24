@@ -1,0 +1,23 @@
+name: Methodology critique
+description: Report a methodological, evidentiary, reproducibility, or overclaiming concern
+title: "Methods critique: "
+body:
+  - type: input
+    id: research_object
+    attributes:
+      label: Research object
+      placeholder: IF-R###
+  - type: textarea
+    id: concern
+    attributes:
+      label: Concern
+    validations:
+      required: true
+  - type: textarea
+    id: consequence
+    attributes:
+      label: Why it matters
+  - type: textarea
+    id: test
+    attributes:
+      label: Suggested test or correction
