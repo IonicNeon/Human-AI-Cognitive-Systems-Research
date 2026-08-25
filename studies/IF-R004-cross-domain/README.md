@@ -1,63 +1,77 @@
-# IF-R004 — Cross-Domain Generalization
+# IF-R004 — Historically Blind Cross-Domain Generalization and Mechanism Selection
 
 **Status:** conditional  
 **Public state:** metadata-and-methods-only  
-**Research class:** conditional comparative study  
+**Research class:** historically blind within-case comparative study with separate prospective validation  
 **Parent:** IF-R003 (`extends`)
 
 ## Core question
 
-Do core mechanisms generalize across materially different application environments?
+Which Idea-Foundry mechanisms show supported reuse or outcome consistency across materially different application environments **before the owner knew this development would become the research object**, and what boundary conditions limit those claims?
 
-IF-R004 asks whether mechanisms that appear useful in one class of work retain value when the work product, evidence structure, error costs, temporal horizon, and success criteria change. It does **not** treat multiple examples from one person or one repository as population-level generalization.
+IF-R004 is the decision gate of the core four-paper sequence. Its primary corpus is the same historically blind development period used by IF-R001–IF-R003. It asks whether mechanisms visible in eligible pre-awareness task traces recur across materially different domains and whether Paper 3 replay/ablation evidence supports a common useful role, a boundary-conditioned role, a local adaptation, or a negative/maladaptive interpretation.
 
-The earliest defensible target is within-case **cross-domain transfer**. Broader human or organizational generalization belongs to later external-validation work.
+Post-awareness prospective cross-domain testing may provide stronger validation, but it is a separate `RA+` evidence class. It cannot count as blind replication of the original development period.
+
+The earliest defensible primary claim is **within-case historically observed cross-domain transfer/reuse**. Broader human or organizational generalization belongs to later external-validation work.
 
 ## Entry condition
 
-IF-R004 should not move into confirmatory analysis until IF-R003 has identified at least one mechanism and outcome pair worth testing under a frozen protocol.
+A mechanism should not enter the primary comparison merely because it is prominent in the current architecture.
 
-A mechanism should not enter this study merely because it is prominent in the architecture. It should enter because prior evidence provides a specific reason to expect an effect.
+It should enter when:
+
+1. its abstract identity is supported in the pre-awareness corpus;
+2. it appears in at least one eligible pre-awareness task/outcome trace;
+3. IF-R003 has a supported replay/ablation result, a justified null/negative result, or a documented reason why the mechanism can be evaluated historically without that result;
+4. at least two materially different pre-awareness application environments contain comparable evidence, with the final confirmatory historical threshold frozen before outcome classification;
+5. later architecture is not back-projected into earlier domain states.
+
+Any later `RA+` prospective transfer study has its own entry conditions and protocol.
 
 ## Research questions
 
-1. **RQ4.1 — Transfer:** Does a mechanism associated with improved outcomes in one domain preserve the direction of effect in other materially different domains?
-2. **RQ4.2 — Boundary conditions:** Which domain properties weaken, reverse, or eliminate the effect?
-3. **RQ4.3 — Adaptation:** Which implementation details must change for the same abstract mechanism to function in different domains?
+1. **RQ4.1 — Historical transfer/reuse:** Does a mechanism associated with improved or failure-reducing outcomes in one pre-awareness domain show the same direction or functional role in other materially different pre-awareness domains?
+2. **RQ4.2 — Boundary conditions:** Which domain properties weaken, reverse, or eliminate the supported role?
+3. **RQ4.3 — Mechanism identity:** Which implementation details may change while the same abstract mechanism remains identifiable?
 4. **RQ4.4 — Cost:** Do maintenance and interaction costs vary enough by domain to change whether a mechanism is worthwhile?
-5. **RQ4.5 — Failure modes:** Does transfer introduce new domain-specific failure modes even when common metrics improve?
+5. **RQ4.5 — Failure modes:** Does reuse introduce domain-specific failure modes even when some common outcomes improve?
+6. **RQ4.6 — Validation:** Do later `RA+` matched cross-domain tests agree with or overturn the historically blind classification?
 
 ## Domain selection
 
-Domains must be selected before confirmatory outcome review and must differ on prespecified dimensions rather than by folder name alone.
+Primary domains are selected from the pre-awareness corpus under frozen inclusion rules. They must differ on prespecified dimensions rather than by folder name alone.
 
-Candidate domain dimensions include:
+Candidate dimensions include:
 
-- **primary output:** physical artifact, software artifact, business/operational state, research/knowledge artifact;
-- **evidence type:** measurements, code/tests, transactions/records, literature/provenance;
-- **error cost:** reversible nuisance, financial/operational loss, physical rework, research-validity harm;
+- **primary output:** physical artifact, software artifact, business/operational state, research/knowledge artifact, educational work product, creative artifact;
+- **evidence type:** measurements, code/tests, transactions/records, literature/provenance, course requirements, design/inspection evidence;
+- **error cost:** reversible nuisance, operational loss, physical rework, research-validity loss, missed academic requirement;
 - **time horizon:** minutes/hours, days, weeks/months;
 - **state volatility:** mostly static versus frequently changing;
-- **verification style:** machine test, physical inspection, ledger reconciliation, source audit;
+- **verification style:** machine test, physical inspection, ledger reconciliation, source audit, rubric/assignment check;
 - **coordination demand:** single-session versus multi-session/multi-agent;
-- **privacy/security burden:** low, moderate, high.
+- **privacy/security burden:** low, moderate, high;
+- **reversibility:** easy correction versus costly or path-dependent correction.
 
-A final comparison should include at least three domains that are materially separated on multiple dimensions.
+The primary historical comparison should contain at least three materially separated pre-awareness domains if the source corpus supports honest reconstruction. A domain should be removed if evidence density, task comparability, or mechanism identity is too weak.
 
-## Candidate initial domains
+## Candidate historical domains
 
-These are design candidates, not a frozen sample:
+These are source-recovery candidates, not a frozen sample:
 
 1. **Engineering/build work** — physical design/build tasks with measurements, part state, and test/inspection evidence.
-2. **Software/automation work** — executable artifacts with tests, versioning, and reproducible build behavior.
-3. **Business/operations work** — inventory, commitments, financial/operational records, and correction costs.
+2. **Software/automation work** — executable artifacts with tests, versioning, and reproducible behavior.
+3. **Business/operations work** — inventory, commitments, operational records, and correction costs.
 4. **Research/knowledge work** — source-backed synthesis, claim state, provenance, and methodological controls.
+5. **Education** — coursework, deadlines, rubrics, submission state, and learning constraints where pre-awareness traces support them.
+6. **Creative work** — design/artifact workflows where the same state, provenance, validation, or continuity mechanisms are genuinely instantiated.
 
-A domain may be removed before freeze if it cannot support matched tasks or comparable outcomes.
+Domain inclusion is evidence-driven. A domain may be absent from the final analysis even if Idea-Foundry contains a folder with that label.
 
 ## Mechanism selection
 
-Candidate cross-domain mechanisms should be defined abstractly enough to survive implementation differences. Examples include:
+Candidate mechanisms should be defined abstractly enough to survive implementation differences while remaining falsifiable. Examples include:
 
 - canonical-state admission rules;
 - provenance linkage;
@@ -66,19 +80,39 @@ Candidate cross-domain mechanisms should be defined abstractly enough to survive
 - structured retrieval;
 - handoff/continuity records;
 - generated-view separation from canonical state;
-- correction/audit trails.
+- correction/audit trails;
+- explicit authority boundaries.
 
-The study should compare the **mechanism**, not require identical file structures or software implementations across domains.
+The study compares the **mechanism**, not identical file structures or software implementations.
+
+Mechanism identity must be frozen before comparative classification. If implementation changes are so extensive that only the label remains, the transfer claim fails.
+
+## Historical evidence unit
+
+A domain-mechanism observation should include:
+
+- historical stratum and timestamp bounds;
+- stable source identifiers;
+- contemporaneous mechanism state;
+- task/failure class;
+- evidence and verification style;
+- original historical outcome;
+- IF-R003 replay/ablation result when available;
+- costs/overhead visible in the source record;
+- contradictory or negative evidence;
+- reconstruction confidence.
+
+Repeated references to a mechanism do not create independent observations.
 
 ## Common outcome family
 
-To support cross-domain comparison, each task should map domain-specific scoring to a small common outcome family.
+To support cross-domain comparison, historical task traces should map domain-specific evidence to a small common outcome family without erasing domain-specific quality.
 
 ### Primary common outcomes
 
-- **task success:** acceptance criteria satisfied within the fixed budget;
-- **critical state error:** incorrect, stale, contradictory, or unverifiable state reaches an authoritative output;
-- **recovery burden:** time/actions needed to detect and correct a recoverable failure.
+- **task success:** acceptance criteria or durable goal state satisfied;
+- **critical state error:** incorrect, stale, contradictory, or unverifiable state reaches an authoritative output or decision;
+- **recovery burden:** actions/time/rework required to detect and correct a recoverable failure.
 
 ### Secondary common outcomes
 
@@ -86,124 +120,174 @@ To support cross-domain comparison, each task should map domain-specific scoring
 - continuity/handoff success;
 - unnecessary rework;
 - maintenance overhead;
-- number of human interventions;
+- human interventions;
 - domain-specific quality metrics.
 
-Domain-specific outcomes should not be discarded merely to create superficial comparability.
+Where the historical record cannot support a common outcome honestly, mark it missing rather than manufacturing comparability.
 
-## Comparative design
+## Primary comparative design
 
-The preferred initial design is a replicated within-case comparative experiment using matched task families across domains.
+The primary Series-I analysis is a **historically blind cross-domain comparison**, not a future replicated experiment.
 
 For each selected mechanism:
 
-1. define the full mechanism condition and comparison/ablation condition;
-2. build matched task variants within each domain;
-3. hold model/tool/resource budgets as constant as practical;
-4. randomize or counterbalance condition order within domain;
-5. score with common and domain-specific criteria;
-6. estimate effect direction and magnitude separately by domain before pooling anything.
+1. freeze mechanism identity and domain-inclusion rules;
+2. identify eligible pre-awareness episodes in each domain;
+3. reconstruct contemporaneous mechanism state without using later architecture;
+4. link IF-R003 replay/ablation results where available;
+5. code common and domain-specific outcomes, costs, and failures;
+6. report domain-level evidence before any cross-domain classification;
+7. preserve null, negative, reversed, and missing cases;
+8. perform sensitivity checks for episode selection and reconstruction confidence.
 
-A pooled summary is secondary. Domain-level results remain primary because heterogeneity is itself the research question.
+A later `RA+` confirmatory layer may use matched task families, full-mechanism and ablation conditions, fixed resource budgets, and randomized/counterbalanced order. Those results are reported separately.
 
-## Generalization criteria
+## Mechanism classification
 
-The manuscript must distinguish three levels of claim.
+The paper produces a classification used to control the explanatory emphasis of IF-R002.
 
-### Level 1 — demonstrated in one domain
+### Class A — provisional transferable core
 
-A mechanism shows a supported effect under IF-R003 conditions in one domain.
+Supported pre-awareness evidence preserves a useful functional role or effect direction across the frozen minimum number of materially different domains, with mechanism identity intact and no unresolved cost/failure pattern that reverses the interpretation.
 
-### Level 2 — within-case cross-domain transfer
+Because the primary data are retrospective and nonrandomized, this is a bounded **historical within-case** classification. Later `RA+` validation may strengthen, weaken, or overturn it.
 
-The effect direction is preserved in multiple materially different domains under comparable tests, with no unresolved domain-specific failure that makes the mechanism net harmful.
+### Class B — boundary-conditioned
 
-A candidate operational threshold for exploratory planning is preservation across at least three selected domains, but the final threshold must be frozen before confirmatory analysis.
+The mechanism appears useful only under identifiable domain properties such as state volatility, verification cost, task duration, coordination demand, privacy burden, or reversibility.
 
-### Level 3 — external generalization
+### Class C — local adaptation
 
-The mechanism retains value across other people, organizations, or independently instantiated systems. IF-R004 cannot establish this alone.
+The mechanism solves a real problem in one environment but the available pre-awareness evidence does not support transfer beyond that setting.
+
+### Class D — negative/maladaptive
+
+The mechanism creates recurring cost, new failure modes, or reversed outcomes that outweigh its intended benefit in the relevant historical environments.
+
+### Class U — unresolved
+
+Source coverage, reconstruction quality, mechanism identity, or outcome comparability is insufficient for a defensible classification. Unresolved is a valid result.
+
+## Relationship to IF-R002
+
+IF-R004 determines **analytical emphasis**, not historical existence.
+
+IF-R002 preserves the complete HB-0 through HB-3 event corpus independently of IF-R004. After IF-R004 classification:
+
+- transferable mechanisms receive primary evolutionary tracing;
+- boundary-conditioned mechanisms are traced with the domain properties that shaped them;
+- local adaptations remain in the data without being presented as general architecture;
+- maladaptive mechanisms are traced as failures of selection or stabilization;
+- unresolved mechanisms remain unresolved rather than being forced into a narrative.
+
+IF-R002 must not recycle the same historical traces as independent confirmation of IF-R004.
 
 ## Heterogeneity and boundary-condition analysis
 
-A failed transfer is not automatically a failed study. It may identify a useful boundary condition.
+A failed transfer is not a failed study. It may identify a useful boundary condition.
 
 For every domain, record:
 
-- effect direction;
-- effect magnitude/uncertainty;
-- implementation changes needed;
+- supported effect/functional direction;
+- reconstruction confidence and uncertainty;
+- implementation differences;
 - new failure modes;
 - overhead/cost;
 - domain characteristics that may explain heterogeneity.
 
-Candidate moderators include state volatility, verification cost, task duration, privacy burden, and whether outputs are physical, executable, transactional, or epistemic.
+Candidate moderators include state volatility, verification cost, task duration, privacy burden, coordination demand, reversibility, and whether outputs are physical, executable, transactional, educational, creative, or epistemic.
+
+## RA+ prospective validation
+
+Later cross-domain experiments may be run when a historically classified mechanism is important enough to justify stronger causal testing.
+
+A validation protocol should:
+
+- freeze mechanism identity and domain-selection dimensions;
+- use matched task families;
+- freeze common and domain-specific scoring;
+- hold tool/model/resource budgets as constant as practical;
+- randomize or counterbalance where feasible;
+- report domain-level results before pooling;
+- explicitly compare prospective classification with the historically blind classification.
+
+Prospective validation is scientifically valuable precisely because it is **not** the same evidence class as the historical corpus.
 
 ## Disconfirmation targets
 
-Claims of cross-domain transfer should be weakened or rejected if:
+Claims of historically supported cross-domain transfer should be weakened or rejected if:
 
-- effects are confined to one domain;
-- matched tasks show opposite effect directions across domains;
-- the mechanism must be changed so extensively that the “same mechanism” label is no longer meaningful;
-- benefits depend mainly on one domain's native infrastructure rather than the tested architecture;
-- maintenance/interaction costs erase outcome gains in several domains;
-- domain-specific harms or critical failures emerge;
-- common outcomes cannot be scored reliably across domains.
+- evidence is confined to one domain;
+- IF-R003 replay shows opposite effects across domains;
+- mechanism identity collapses under implementation differences;
+- source coverage systematically omits negative domains or episodes;
+- apparent transfer is just repeated terminology rather than the same abstract function;
+- maintenance/interaction costs erase outcome gains;
+- domain-specific failure modes reverse the interpretation;
+- common outcomes cannot be reconstructed reliably;
+- later `RA+` validation systematically contradicts the historical classification.
 
 ## Major confounds
 
-- the same operator participates in all domains;
-- domain expertise differs substantially;
-- task difficulty may not be truly matched;
-- different verification methods create measurement asymmetry;
-- model/tool ecosystems differ by domain;
-- historical familiarity with some projects can create advantage;
-- architecture components may have been originally optimized for particular domains;
-- carryover learning between conditions and domains;
-- small domain count.
+- same owner/operator across domains;
+- unequal domain expertise;
+- retrospective episode selection;
+- historical familiarity and hindsight;
+- unequal source survival across domains;
+- model/tool drift over time;
+- architecture originally optimized for some domains;
+- nonindependence of episodes that share the same underlying project or correction;
+- small domain count;
+- mechanism definitions created after seeing the mature architecture.
+
+The historically blind scope reduces one form of research reactivity in the primary corpus, but does not remove these confounds.
 
 ## Analysis plan
 
-The final protocol should prioritize:
+The final historical protocol should prioritize:
 
-1. domain-specific paired condition effects;
-2. direction-of-effect replication across domains;
-3. heterogeneity rather than a single pooled score;
+1. domain-specific episode and replay evidence;
+2. direction/functional-role consistency across domains;
+3. heterogeneity and boundary conditions;
 4. cost/failure tradeoffs;
-5. sensitivity to task matching and exclusion rules;
-6. explicit boundary-condition cases.
+5. sensitivity to mechanism definition, episode selection, and reconstruction quality;
+6. explicit unresolved cases;
+7. separate comparison with any later `RA+` validation.
 
-Do not claim cross-domain generalization from a collection of anecdotes or repository examples that were not prospectively sampled and scored.
+Do not claim cross-domain support from folder counts, anecdotes, or repeated mentions alone.
 
 ## Manuscript architecture
 
 A future IF-R004 paper should contain:
 
-1. mechanism(s) inherited from IF-R003 and why they were selected;
-2. prespecified domain-selection dimensions;
-3. matched task construction;
-4. common and domain-specific outcomes;
-5. domain-level results;
-6. heterogeneity/boundary conditions;
+1. historically blind scope and awareness boundary;
+2. mechanisms inherited from IF-R003 and selection rules;
+3. pre-awareness domain-selection dimensions and source coverage;
+4. mechanism-identity definitions;
+5. domain-level historical/replay evidence;
+6. heterogeneity and boundary conditions;
 7. transfer costs and new failure modes;
-8. negative or reversed domains;
-9. limits of within-case generalization;
-10. handoff to external validation studies.
+8. negative, reversed, missing, and unresolved domains;
+9. mechanism classification and effect on IF-R002 emphasis;
+10. separately labeled `RA+` prospective validation, if available;
+11. limits of within-case generalization and handoff to external validation.
 
 ## Publication gate
 
-Do not make a cross-domain transfer claim until:
+Do not make a primary historically supported cross-domain claim until:
 
-- the tested mechanism has prior support under IF-R003;
-- domain inclusion criteria are frozen;
-- selected domains differ on prespecified dimensions;
-- matched task and scoring rules are frozen before outcome review;
-- each domain has sufficient repeated observations to expose variance;
-- failures and costs are reported alongside benefits;
-- domain-level effects are shown before any pooled summary;
-- the claim is explicitly labeled within-case unless external participants/systems are studied.
+- the research-awareness boundary is source-bound;
+- mechanism identity is frozen;
+- domain inclusion rules are frozen before final classification;
+- the selected pre-awareness domains are materially different on prespecified dimensions;
+- eligible historical episodes are auditable;
+- IF-R003 replay/ablation evidence is incorporated where applicable;
+- source coverage and missingness are reported;
+- failures and costs are shown alongside benefits;
+- domain-level evidence precedes any cross-domain summary;
+- the claim is explicitly labeled within-case and historical;
+- `RA+` validation, if run, is reported separately rather than pooled.
 
 ## Current public position
 
-IF-R004 is conditional on IF-R003. Individual examples from engineering, software, business, research, or other domains are motivating cases only. They do not establish prevalence, transfer, or generalization until prospectively selected and scored under a frozen comparative protocol.
+IF-R004 is the mechanism-selection gate for the core series. Its primary evidence base is the historically blind pre-awareness application record, not newer research-aware projects or future experiments. At present it contains a developing comparative method, not evidence that any mechanism generalizes.
