@@ -7,34 +7,46 @@
 
 ## Core question
 
-Do candidate Idea-Foundry mechanisms appear to improve measurable knowledge-work outcomes when tested against task episodes drawn from the period before the owner knew that this development would become the object of the research program?
+Do candidate Idea-Foundry mechanisms appear to improve measurable knowledge-work outcomes when tested against task episodes drawn from the period **after first second-brain concept awareness but before research awareness**?
 
-IF-R003 no longer treats future prospective work as the primary Series-I corpus. Its primary empirical substrate is the **historically blind period** ending at the recovered research-awareness boundary. Eligible pre-awareness tasks, failures, and outcomes are selected under frozen rules, reconstructed to their contemporaneous information state, and tested through replay and mechanism ablation.
+IF-R003's primary Series-I empirical substrate is the same two-awareness-boundary observation window used by the core series:
 
-Post-awareness prospective matched tasks may provide stronger causal validation, but they are a separate `RA+` evidence class. They cannot retroactively turn the original development period into prospective or research-blind observation.
+- **start — `SB-AWARENESS-01`:** first evidenced awareness of the second-brain concept; timestamp currently unresolved, with the owner's current recollection identifying a Facebook Reel as the first exposure;
+- **end — research awareness:** earliest currently recovered candidate 2026-08-20T15:49:33Z, followed twelve seconds later by the first immutable protocol commit.
+
+Eligible tasks, failures, and outcomes inside that concept-aware/research-unaware window are selected under frozen rules, reconstructed to their contemporaneous information state, and tested through replay and mechanism ablation.
+
+Earlier pre-concept episodes may be used as a **separate baseline/comparison class** when source quality and comparability permit. Post-awareness prospective matched tasks may provide stronger causal validation, but they are a separate `RA+` evidence class. Neither baseline nor `RA+` material is silently pooled with the primary observation-window analysis.
 
 Historical growth, persistence, complexity, or owner preference do not count as evidence that the architecture improves outcomes.
 
-No effectiveness result should be claimed before the episode-selection rules, reconstruction protocol, scoring rules, exclusions, comparison conditions, and primary outcomes are frozen.
+No effectiveness result should be claimed before the start/end boundaries, episode-selection rules, reconstruction protocol, scoring rules, exclusions, comparison conditions, and primary outcomes are frozen or defensibly bounded.
 
 ## Primary estimand
 
-Within eligible pre-awareness episodes, what is the bounded within-case effect of historically instantiated governance mechanisms, relative to prespecified replay or ablation conditions, on task success, critical information-state failure, and recovery burden?
+Within eligible concept-aware/research-unaware episodes, what is the bounded within-case effect of historically instantiated governance mechanisms, relative to prespecified replay or ablation conditions, on task success, critical information-state failure, and recovery burden?
 
 This is a **retrospective within-case counterfactual estimand**. The comparison conditions did not literally occur in the historical timeline, and the investigator may know the original outcome. Those limitations are central to interpretation.
 
-A separate secondary estimand may be defined for post-awareness prospective matched tasks. It must be reported as `RA+` validation and must not be pooled silently with the historically blind primary analysis.
+Separate secondary estimands may be defined for:
+
+- pre-concept baseline episodes;
+- post-awareness prospective matched tasks (`RA+`).
+
+Those classes must not be pooled silently with the primary analysis.
 
 ## Historical episode eligibility
 
 Primary episodes must:
 
-- occur before the research-awareness cutoff;
+- occur at or after `SB-AWARENESS-01` and before the research-awareness cutoff;
 - have sufficient contemporaneous source material to reconstruct the task input and relevant system state;
 - represent a recurring task/failure class rather than a demonstration selected for success;
 - permit at least one meaningful comparison or mechanism-ablation condition without introducing obviously unrelated breakage;
 - have a scorable outcome or recovery endpoint;
 - preserve negative, failed, ambiguous, and inconvenient cases when they meet the same eligibility rules.
+
+Until `SB-AWARENESS-01` is source-bound, candidate episodes near the unresolved start must be labeled `PRE-SB?`, `POST-SB?`, or `SB-BOUNDARY-CANDIDATE` rather than forced into the primary corpus.
 
 Episode selection must be frozen before replay outcomes are exposed. Source availability is itself a selection mechanism and must be reported.
 
@@ -45,13 +57,14 @@ Episode selection must be frozen before replay outcomes are exposed. Source avai
 3. **RQ3.3 — Recovery:** When failure occurs, do they reduce recovery burden or correction work?
 4. **RQ3.4 — Mechanism contribution:** Which architecture components materially contribute to observed differences under ablation?
 5. **RQ3.5 — Cost:** What maintenance, latency, interaction, or complexity costs accompany any benefit?
-6. **RQ3.6 — Validation:** When a subset of mechanism-outcome pairs is later tested prospectively, do the `RA+` results agree with the historically blind replay classification?
+6. **RQ3.6 — Pre-concept contrast:** Where comparable earlier episodes exist, do outcomes or mechanism availability differ before second-brain concept exposure?
+7. **RQ3.7 — Validation:** When a subset of mechanism-outcome pairs is later tested prospectively, do the `RA+` results agree with the historically blind replay classification?
 
 ## Candidate hypotheses
 
 These remain provisional until a frozen protocol is committed.
 
-- **H3.1:** historically appropriate full-condition replay will produce higher task-success scores than the prespecified comparison condition across eligible episodes.
+- **H3.1:** historically appropriate full-condition replay will produce higher task-success scores than the prespecified comparison condition across eligible observation-window episodes.
 - **H3.2:** full-condition replay will produce fewer critical information-state failures than comparison conditions.
 - **H3.3:** full-condition replay will reduce recovery burden after eligible recoverable failures.
 - **H3.4:** ablation of retrieval, provenance/validation, continuity/state, or canonical-state admission controls will degrade at least one prespecified outcome in the subset of episodes where that mechanism was contemporaneously available and relevant.
@@ -64,7 +77,7 @@ The final protocol should use the smallest condition set that answers the mechan
 
 ### A. Historical full condition
 
-A frozen reconstruction of Idea-Foundry as it existed at the selected pre-awareness episode. Later mechanisms may not be back-projected into earlier states.
+A frozen reconstruction of Idea-Foundry as it existed at the selected observation-window episode. Later mechanisms may not be back-projected into earlier states.
 
 ### B. Comparison condition
 
@@ -81,13 +94,17 @@ Candidate ablations include:
 
 Only ablations that can be implemented without introducing unrelated failures should be used. Each ablation must document what remains constant.
 
-### D. RA+ prospective validation
+### D. Pre-concept baseline
+
+Where a comparable episode predating `SB-AWARENESS-01` exists, it may be used to characterize workflow or outcome state before concept exposure. This is a baseline class, not randomized treatment assignment and not automatically a causal estimate of concept exposure.
+
+### E. RA+ prospective validation
 
 A later frozen Idea-Foundry configuration may be tested on novel matched tasks whose answers are not already known to the operator. This is a separate validation layer with separate tables and inference language.
 
 ## Task families
 
-Primary tasks are recovered from the historically blind corpus under frozen eligibility rules rather than invented after seeing what the architecture does well.
+Primary tasks are recovered from the concept-aware/research-unaware observation window under frozen eligibility rules rather than invented after seeing what the architecture does well.
 
 Candidate recurring task classes include:
 
@@ -102,6 +119,7 @@ Candidate recurring task classes include:
 Each episode needs:
 
 - stable source IDs and timestamp bounds;
+- relation to `SB-AWARENESS-01` and research-awareness cutoff;
 - reconstructed input package and contemporaneous state;
 - acceptance criteria or outcome rubric;
 - comparison/ablation definition;
@@ -152,16 +170,24 @@ Historical replay is the primary Series-I testing mode, but it is not equivalent
 
 For each episode:
 
-1. freeze episode eligibility before replay outcome review;
+1. verify observation-window eligibility or boundary class before replay outcome review;
 2. reconstruct only information available at the episode boundary;
 3. version the historical full condition and all comparison/ablation conditions;
 4. mask the original historical outcome from the executing agent/model where practical;
 5. hold model/tool/resource budgets as constant as practical across replay conditions;
 6. score with frozen criteria;
-7. keep the original historical outcome, replay results, and later prospective validation in separate fields;
+7. keep original historical outcome, replay results, pre-concept baseline results, and later prospective validation in separate fields;
 8. record reconstruction omissions, contamination, and any knowledge leakage.
 
-Key threats include investigator knowledge of the historical result, source-selection hindsight, incomplete hidden context, model/tool drift, and imperfect reconstruction of old software states.
+Key threats include investigator knowledge of the historical result, source-selection hindsight, incomplete hidden context, model/tool drift, uncertain `SB-AWARENESS-01` timing, and imperfect reconstruction of old software states.
+
+## Start-boundary evidence
+
+The preferred evidence for `SB-AWARENESS-01` is the original Facebook Reel plus a matching Facebook account-export/activity event that supports exposure/view/interaction timing.
+
+Do not substitute the reel publication date, first later save/share, first ChatGPT use of the phrase `second brain`, or first Git implementation unless evidence independently establishes that event as the first concept awareness.
+
+If the start can only be bounded to an interval, replay eligibility and primary results near the boundary should be sensitivity-tested under the earliest and latest plausible start.
 
 ## RA+ prospective validation
 
@@ -196,9 +222,10 @@ Initial analysis should emphasize:
 - paired within-episode condition differences;
 - effect sizes or bounded uncertainty appropriate to the sample structure;
 - failure-type distributions;
-- sensitivity to episode-selection and reconstruction rules;
+- sensitivity to episode-selection, reconstruction, and observation-start rules;
 - per-episode and per-condition raw outcomes;
 - cost/benefit tradeoffs;
+- optional separately labeled pre-concept contrasts;
 - agreement or disagreement between historical replay classifications and any later `RA+` validation.
 
 Avoid pseudo-replication: repeated tool calls, commits, messages, or generated files are not independent experimental observations.
@@ -207,8 +234,9 @@ Avoid pseudo-replication: repeated tool calls, commits, messages, or generated f
 
 The protocol should state:
 
-- planned number or minimum coverage of eligible historical episodes;
+- planned number or minimum coverage of eligible observation-window episodes;
 - what makes an episode unreconstructable;
+- how unresolved start-boundary episodes are handled;
 - when a broken replay condition is replaced versus retained as a failure;
 - privacy/safety stop conditions;
 - how post-freeze changes are versioned;
@@ -220,6 +248,7 @@ Any post-exposure change to hypotheses, primary outcomes, episode eligibility, e
 
 The architecture should not be described as effective if any of the following dominate the result:
 
+- `SB-AWARENESS-01` cannot be bounded well enough to identify the intended primary corpus;
 - no meaningful task-success improvement under historical replay;
 - failure reduction is offset by equal or greater new failure modes;
 - results disappear when negative or inconvenient episodes are included;
@@ -235,6 +264,7 @@ The architecture should not be described as effective if any of the following do
 - retrospective episode selection;
 - investigator knowledge of historical outcomes;
 - incomplete reconstruction of contemporaneous state;
+- uncertain second-brain awareness timing;
 - model/vendor drift;
 - unequal tool access across conditions;
 - contamination through retained memory/files;
@@ -246,22 +276,26 @@ The architecture should not be described as effective if any of the following do
 
 A future IF-R003 paper should contain:
 
-1. historically blind scope and awareness cutoff;
-2. episode eligibility and source-reconstruction method;
-3. versioned historical full/comparison/ablation conditions;
-4. primary replay outcomes;
-5. failure-type and recovery results;
-6. mechanism-ablation results;
-7. cost/overhead results;
-8. reconstruction sensitivity and negative/null findings;
-9. separately labeled `RA+` prospective validation, if run;
-10. limitations and scope of the within-case counterfactual claim.
+1. two-awareness-boundary scope;
+2. `SB-AWARENESS-01` evidence and uncertainty;
+3. episode eligibility and source-reconstruction method;
+4. versioned historical full/comparison/ablation conditions;
+5. primary replay outcomes;
+6. failure-type and recovery results;
+7. mechanism-ablation results;
+8. optional pre-concept baseline comparison;
+9. cost/overhead results;
+10. start/end-boundary and reconstruction sensitivity;
+11. separately labeled `RA+` prospective validation, if run;
+12. limitations and scope of the within-case counterfactual claim.
 
 ## Publication gate
 
 No effectiveness claim should be promoted until:
 
-- the awareness boundary and historical episode window are documented;
+- `SB-AWARENESS-01` is source-bound or defensibly bounded;
+- the research-awareness end boundary is source-bound;
+- the historical episode window is documented;
 - episode-selection rules are frozen before replay outcome exposure;
 - source reconstruction is auditable;
 - comparison/ablation conditions are versioned and historically appropriate;
@@ -270,9 +304,9 @@ No effectiveness claim should be promoted until:
 - resource budgets are comparable or explicitly modeled;
 - scoring reliability is audited;
 - deviations/amendments are preserved;
-- historical replay is not conflated with prospective validation;
+- historical replay is not conflated with pre-concept baseline or prospective validation;
 - costs and adverse/failure outcomes are reported alongside benefits.
 
 ## Current public position
 
-IF-R003 tests mechanisms motivated by IF-R001/IF-R002 using the historically blind task corpus as its primary evidence base. At present it contains a developing replay/ablation method, not evidence that Idea-Foundry improves knowledge-work outcomes. Any later prospective study is a separate validation layer.
+IF-R003 tests mechanisms motivated by IF-R001/IF-R002 using the **concept-aware/research-unaware task corpus** as its primary evidence base. Earlier material may support a separately labeled pre-concept baseline; later prospective work is a separate validation layer. At present IF-R003 contains a developing replay/ablation method, not evidence that Idea-Foundry improves knowledge-work outcomes.
