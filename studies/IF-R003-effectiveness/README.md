@@ -1,54 +1,74 @@
-# IF-R003 — Prospective Effectiveness, Replay, and Mechanism Ablation
+# IF-R003 — Historically Blind Effectiveness, Replay, and Mechanism Ablation
 
 **Status:** prespecification-in-progress  
 **Public state:** methods-only  
-**Research class:** prospective experimental study  
+**Research class:** retrospective within-case replay/ablation study with separate prospective validation  
 **Parents:** IF-R001 (`tests`), IF-R002 (`operationalizes`)
 
 ## Core question
 
-Does maturation of the architecture improve measurable knowledge-work performance and reduce classified failures?
+Do candidate Idea-Foundry mechanisms appear to improve measurable knowledge-work outcomes when tested against task episodes drawn from the period before the owner knew that this development would become the object of the research program?
 
-IF-R003 is the first study in the program intended to test effectiveness prospectively rather than infer it from repository history. Historical growth, persistence, complexity, or owner preference do not count as evidence that the architecture improves outcomes.
+IF-R003 no longer treats future prospective work as the primary Series-I corpus. Its primary empirical substrate is the **historically blind period** ending at the recovered research-awareness boundary. Eligible pre-awareness tasks, failures, and outcomes are selected under frozen rules, reconstructed to their contemporaneous information state, and tested through replay and mechanism ablation.
 
-No effectiveness result should be claimed before the protocol, task battery, scoring rules, exclusions, and primary outcomes are frozen.
+Post-awareness prospective matched tasks may provide stronger causal validation, but they are a separate `RA+` evidence class. They cannot retroactively turn the original development period into prospective or research-blind observation.
+
+Historical growth, persistence, complexity, or owner preference do not count as evidence that the architecture improves outcomes.
+
+No effectiveness result should be claimed before the episode-selection rules, reconstruction protocol, scoring rules, exclusions, comparison conditions, and primary outcomes are frozen.
 
 ## Primary estimand
 
-Within the defined study environment, what is the effect of the full governed architecture, relative to prespecified comparison conditions, on successful completion of standardized knowledge-work tasks under a fixed resource/time budget?
+Within eligible pre-awareness episodes, what is the bounded within-case effect of historically instantiated governance mechanisms, relative to prespecified replay or ablation conditions, on task success, critical information-state failure, and recovery burden?
 
-This is initially a **within-case** estimand. It does not establish population-level human benefit.
+This is a **retrospective within-case counterfactual estimand**. The comparison conditions did not literally occur in the historical timeline, and the investigator may know the original outcome. Those limitations are central to interpretation.
+
+A separate secondary estimand may be defined for post-awareness prospective matched tasks. It must be reported as `RA+` validation and must not be pooled silently with the historically blind primary analysis.
+
+## Historical episode eligibility
+
+Primary episodes must:
+
+- occur before the research-awareness cutoff;
+- have sufficient contemporaneous source material to reconstruct the task input and relevant system state;
+- represent a recurring task/failure class rather than a demonstration selected for success;
+- permit at least one meaningful comparison or mechanism-ablation condition without introducing obviously unrelated breakage;
+- have a scorable outcome or recovery endpoint;
+- preserve negative, failed, ambiguous, and inconvenient cases when they meet the same eligibility rules.
+
+Episode selection must be frozen before replay outcomes are exposed. Source availability is itself a selection mechanism and must be reported.
 
 ## Research questions
 
-1. **RQ3.1 — Task success:** Does the full architecture increase the proportion of tasks completed to prespecified acceptance criteria?
-2. **RQ3.2 — Failure prevention:** Does it reduce classified state, provenance, retrieval, contradiction, and handoff failures?
-3. **RQ3.3 — Recovery:** When failure occurs, does it reduce recovery time or correction work?
-4. **RQ3.4 — Mechanism contribution:** Which architecture components materially contribute to observed effects?
+1. **RQ3.1 — Task success:** Under historical replay, do the mechanisms available in the contemporaneous full condition improve task success relative to prespecified comparison states?
+2. **RQ3.2 — Failure prevention:** Do they reduce classified state, provenance, retrieval, contradiction, and handoff failures?
+3. **RQ3.3 — Recovery:** When failure occurs, do they reduce recovery burden or correction work?
+4. **RQ3.4 — Mechanism contribution:** Which architecture components materially contribute to observed differences under ablation?
 5. **RQ3.5 — Cost:** What maintenance, latency, interaction, or complexity costs accompany any benefit?
+6. **RQ3.6 — Validation:** When a subset of mechanism-outcome pairs is later tested prospectively, do the `RA+` results agree with the historically blind replay classification?
 
-## Candidate confirmatory hypotheses
+## Candidate hypotheses
 
-These remain provisional until a preregistration/frozen protocol is committed.
+These remain provisional until a frozen protocol is committed.
 
-- **H3.1:** the full architecture will produce a higher standardized task-success rate than the baseline condition.
-- **H3.2:** the full architecture will produce fewer critical information-state failures per task than baseline.
-- **H3.3:** the full architecture will reduce median time-to-recovery after seeded or naturally occurring recoverable failures.
-- **H3.4:** ablation of retrieval, provenance/validation, or continuity/state mechanisms will degrade at least one prespecified primary or secondary outcome relative to the full condition.
+- **H3.1:** historically appropriate full-condition replay will produce higher task-success scores than the prespecified comparison condition across eligible episodes.
+- **H3.2:** full-condition replay will produce fewer critical information-state failures than comparison conditions.
+- **H3.3:** full-condition replay will reduce recovery burden after eligible recoverable failures.
+- **H3.4:** ablation of retrieval, provenance/validation, continuity/state, or canonical-state admission controls will degrade at least one prespecified outcome in the subset of episodes where that mechanism was contemporaneously available and relevant.
 
 A null result, mixed result, or cost increase must be preserved and reported.
 
-## Experimental conditions
+## Experimental/replay conditions
 
-The final protocol should use the smallest set of conditions that can answer the mechanism questions without creating an unmanageable experiment.
+The final protocol should use the smallest condition set that answers the mechanism questions honestly.
 
-### A. Baseline
+### A. Historical full condition
 
-A minimally governed AI-assisted workflow approximating conversation/file-based work without the full canonical-state, provenance, validation, and continuity machinery. The exact baseline must be instantiated and versioned rather than described abstractly.
+A frozen reconstruction of Idea-Foundry as it existed at the selected pre-awareness episode. Later mechanisms may not be back-projected into earlier states.
 
-### B. Full architecture
+### B. Comparison condition
 
-The frozen Idea-Foundry configuration selected for the experiment, including the mechanisms explicitly named in the protocol.
+A prespecified simpler state derived from the same episode inputs, such as conversation/file-based work without one or more governance mechanisms. The comparison must be concretely instantiated rather than described rhetorically.
 
 ### C. Mechanism ablations
 
@@ -59,13 +79,17 @@ Candidate ablations include:
 - explicit continuity/handoff state unavailable or reduced;
 - canonical-state admission controls unavailable or reduced.
 
-Only ablations that can be implemented without introducing unrelated breakage should be used. Each ablation must document what remains constant.
+Only ablations that can be implemented without introducing unrelated failures should be used. Each ablation must document what remains constant.
 
-## Task battery
+### D. RA+ prospective validation
 
-Tasks should represent recurring classes of knowledge work rather than bespoke demonstrations chosen because the system already performs them well.
+A later frozen Idea-Foundry configuration may be tested on novel matched tasks whose answers are not already known to the operator. This is a separate validation layer with separate tables and inference language.
 
-Candidate task classes:
+## Task families
+
+Primary tasks are recovered from the historically blind corpus under frozen eligibility rules rather than invented after seeing what the architecture does well.
+
+Candidate recurring task classes include:
 
 - retrieve and reconcile prior decisions/evidence;
 - resume a partially completed multi-step task after interruption;
@@ -73,27 +97,28 @@ Candidate task classes:
 - detect a contradiction or invalid data promotion;
 - produce a traceable answer with source/provenance recovery;
 - hand off a task between sessions/agents without losing state;
-- recover from a seeded missing/stale/incorrect state condition.
+- recover from missing/stale/incorrect state.
 
-Each task needs:
+Each episode needs:
 
-- fixed prompt/input package;
-- acceptance criteria;
-- maximum time or action budget;
-- scoring rubric;
+- stable source IDs and timestamp bounds;
+- reconstructed input package and contemporaneous state;
+- acceptance criteria or outcome rubric;
+- comparison/ablation definition;
 - critical-failure definition;
-- allowed tools/models;
-- contamination/learning notes.
+- allowed models/tools or a documented approximation;
+- contamination/hindsight notes;
+- original historical outcome separated from replay outcomes.
 
 ## Primary outcomes
 
-### 1. Standardized task success
+### 1. Task success
 
-Binary or ordinal score based on prespecified acceptance criteria. Human judgment should be minimized where machine-checkable criteria are possible.
+Binary, ordinal, or task-specific score based on frozen acceptance criteria. Human judgment should be minimized where machine-checkable criteria are possible.
 
-### 2. Critical information-state failure rate
+### 2. Critical information-state failure
 
-Number or proportion of tasks containing prespecified failures such as:
+Candidate failures include:
 
 - wrong canonical fact promoted;
 - required provenance unrecoverable;
@@ -102,67 +127,61 @@ Number or proportion of tasks containing prespecified failures such as:
 - handoff loses required context;
 - invalid source treated as authoritative.
 
-The taxonomy must be frozen before confirmatory scoring.
+The taxonomy must be frozen before confirmatory replay scoring.
+
+### 3. Recovery burden
+
+Time, actions, corrections, or human interventions needed to detect and repair a recoverable failure.
 
 ## Secondary outcomes
 
-- completion time;
-- number of corrective actions;
-- recovery time after failure;
+- completion time or bounded action count;
+- corrective actions;
 - provenance-recovery success;
 - retrieval precision for task-relevant state;
-- number of unnecessary tool/model calls;
+- unnecessary tool/model calls;
 - human interventions required;
 - maintenance/setup overhead;
-- subjective workload, if collected with a prespecified instrument.
+- domain-specific quality metrics.
 
-Do not collapse heterogeneous metrics into a single “productivity” score unless the weighting rule is fixed before data exposure.
+Do not collapse heterogeneous metrics into a single “productivity” score unless the weighting rule is fixed before outcome exposure.
 
-## Experimental design
+## Replay protocol
 
-A blocked within-case repeated-measures design is preferred for the initial study because the same principal operator can encounter matched tasks under multiple conditions.
+Historical replay is the primary Series-I testing mode, but it is not equivalent to a novel randomized prospective task.
 
-Where feasible:
+For each episode:
 
-- randomize or counterbalance condition order;
-- use matched task variants;
-- separate training/practice tasks from scored tasks;
-- freeze the system snapshot used by each condition;
-- record model/tool identifiers and configuration;
-- repeat enough tasks to expose variance rather than rely on demonstrations.
+1. freeze episode eligibility before replay outcome review;
+2. reconstruct only information available at the episode boundary;
+3. version the historical full condition and all comparison/ablation conditions;
+4. mask the original historical outcome from the executing agent/model where practical;
+5. hold model/tool/resource budgets as constant as practical across replay conditions;
+6. score with frozen criteria;
+7. keep the original historical outcome, replay results, and later prospective validation in separate fields;
+8. record reconstruction omissions, contamination, and any knowledge leakage.
 
-If cloud AI models cannot be frozen, model drift must be treated as an experimental nuisance variable and logged explicitly.
+Key threats include investigator knowledge of the historical result, source-selection hindsight, incomplete hidden context, model/tool drift, and imperfect reconstruction of old software states.
 
-## Replay design
+## RA+ prospective validation
 
-Historical episodes may be replayed only when the input state can be reconstructed without leaking the known answer into the tested condition.
-
-Replay is useful for mechanism testing, but it is not equivalent to a genuinely prospective task because:
-
-- the researcher may know the historical outcome;
-- source selection can encode hindsight;
-- reconstructed state may omit hidden context.
-
-Replay results should therefore be labeled separately from prospective novel-task results.
-
-## Randomization and contamination controls
-
-Before confirmatory testing:
+Prospective validation should be used selectively to test whether the historical mechanism classification survives novel tasks. Before any scored validation:
 
 - freeze task IDs and variants;
 - define randomization/counterbalancing rules;
-- define practice exposure;
-- prohibit editing scoring rules after seeing condition outcomes;
-- record any task where prior familiarity may bias performance;
-- distinguish investigator-authored from externally authored tasks;
-- record AI assistance used to construct the experiment itself.
+- separate practice exposure;
+- freeze scoring and failure definitions;
+- version the system snapshot;
+- record model/tool identifiers and resource budgets;
+- prohibit editing primary scoring rules after outcome exposure.
+
+These results may strengthen or weaken a mechanism claim but do not become evidence that the original development period was prospectively observed.
 
 ## Blinding and scoring
 
-Full operator blinding is generally impossible because architecture conditions are visible. Scoring can still be partially blinded.
+Full operator blinding is generally impossible. Preferred safeguards include:
 
-Preferred safeguards:
-
+- mask original historical outcomes from the replay executor where practical;
 - machine-check primary criteria where possible;
 - blinded or masked secondary review of output artifacts;
 - independent audit of a sample of failure classifications;
@@ -170,53 +189,56 @@ Preferred safeguards:
 
 ## Analysis plan
 
-The frozen protocol should name one primary comparison and one primary outcome family.
+The frozen protocol should name one primary historical comparison and a small primary outcome family.
 
 Initial analysis should emphasize:
 
-- paired/within-task condition differences;
-- effect sizes and uncertainty intervals;
+- paired within-episode condition differences;
+- effect sizes or bounded uncertainty appropriate to the sample structure;
 - failure-type distributions;
-- sensitivity to exclusion rules;
-- per-task and per-condition raw outcomes;
-- cost/benefit tradeoffs rather than success-only reporting.
+- sensitivity to episode-selection and reconstruction rules;
+- per-episode and per-condition raw outcomes;
+- cost/benefit tradeoffs;
+- agreement or disagreement between historical replay classifications and any later `RA+` validation.
 
-Statistical tests should be chosen only after the final unit structure and sample size are known. Avoid pseudo-replication: repeated tool calls or commits are not independent experimental observations.
+Avoid pseudo-replication: repeated tool calls, commits, messages, or generated files are not independent experimental observations.
 
 ## Stopping and amendment rules
 
-The confirmatory protocol should state:
+The protocol should state:
 
-- planned number of scored tasks/blocks;
-- conditions under which a broken task is replaced;
-- safety/privacy stop conditions;
-- what constitutes an implementation failure versus an outcome failure;
-- how protocol changes are versioned after data exposure.
+- planned number or minimum coverage of eligible historical episodes;
+- what makes an episode unreconstructable;
+- when a broken replay condition is replaced versus retained as a failure;
+- privacy/safety stop conditions;
+- how post-freeze changes are versioned;
+- the trigger for moving a mechanism-outcome pair into IF-R004.
 
-Any post-exposure change to hypotheses, primary outcomes, exclusion rules, or scoring thresholds must be labeled as an amendment; newly introduced analyses are exploratory unless otherwise justified.
+Any post-exposure change to hypotheses, primary outcomes, episode eligibility, exclusion rules, or scoring thresholds must be labeled as an amendment; newly introduced analyses are exploratory unless otherwise justified.
 
 ## Disconfirmation targets
 
 The architecture should not be described as effective if any of the following dominate the result:
 
-- no meaningful task-success improvement;
+- no meaningful task-success improvement under historical replay;
 - failure reduction is offset by equal or greater new failure modes;
-- benefits disappear under matched tasks rather than historical demonstrations;
+- results disappear when negative or inconvenient episodes are included;
+- apparent benefit depends on back-projecting mechanisms unavailable at the historical timestamp;
 - improvements are explained primarily by greater time/tool/model resources;
 - ablations show that supposedly central mechanisms contribute little;
-- maintenance and coordination costs outweigh the measured benefit for the target tasks;
-- scoring reliability is poor.
+- maintenance and coordination costs outweigh measured benefit;
+- scoring or episode reconstruction is unreliable;
+- later prospective validation systematically contradicts the replay classification.
 
 ## Major confounds
 
-- operator learning and fatigue;
-- knowledge of system internals;
-- task familiarity;
+- retrospective episode selection;
+- investigator knowledge of historical outcomes;
+- incomplete reconstruction of contemporaneous state;
 - model/vendor drift;
 - unequal tool access across conditions;
-- condition contamination through retained memory/files;
-- experimenter-created tasks that favor the architecture;
-- temporal improvements unrelated to the tested mechanisms;
+- contamination through retained memory/files;
+- survivorship in preserved source material;
 - subjective scoring;
 - small within-case sample size.
 
@@ -224,31 +246,33 @@ The architecture should not be described as effective if any of the following do
 
 A future IF-R003 paper should contain:
 
-1. explicit distinction from historical IF-R001/IF-R002 evidence;
-2. preregistered/frozen hypotheses and primary outcomes;
-3. versioned conditions and task battery;
-4. randomization/counterbalancing and contamination controls;
-5. primary effectiveness results;
-6. failure-type and recovery results;
-7. mechanism-ablation results;
-8. cost/overhead results;
-9. negative/null findings and protocol deviations;
-10. limitations and scope of the within-case estimand.
+1. historically blind scope and awareness cutoff;
+2. episode eligibility and source-reconstruction method;
+3. versioned historical full/comparison/ablation conditions;
+4. primary replay outcomes;
+5. failure-type and recovery results;
+6. mechanism-ablation results;
+7. cost/overhead results;
+8. reconstruction sensitivity and negative/null findings;
+9. separately labeled `RA+` prospective validation, if run;
+10. limitations and scope of the within-case counterfactual claim.
 
 ## Publication gate
 
 No effectiveness claim should be promoted until:
 
-- a frozen prospective protocol exists;
-- comparison conditions are versioned and reproducible;
+- the awareness boundary and historical episode window are documented;
+- episode-selection rules are frozen before replay outcome exposure;
+- source reconstruction is auditable;
+- comparison/ablation conditions are versioned and historically appropriate;
 - task acceptance criteria and failure taxonomy are frozen;
-- primary outcome(s) and analysis plan are named before scored data exposure;
-- condition resource budgets are comparable or explicitly modeled;
+- primary outcomes and analysis plan are named before scored replay;
+- resource budgets are comparable or explicitly modeled;
 - scoring reliability is audited;
 - deviations/amendments are preserved;
-- results distinguish novel prospective tasks from historical replay;
+- historical replay is not conflated with prospective validation;
 - costs and adverse/failure outcomes are reported alongside benefits.
 
 ## Current public position
 
-IF-R003 tests mechanisms motivated by IF-R001 and operationalized by IF-R002. At present it contains a developing experimental method, not evidence that Idea-Foundry improves knowledge-work outcomes.
+IF-R003 tests mechanisms motivated by IF-R001/IF-R002 using the historically blind task corpus as its primary evidence base. At present it contains a developing replay/ablation method, not evidence that Idea-Foundry improves knowledge-work outcomes. Any later prospective study is a separate validation layer.
