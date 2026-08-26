@@ -330,3 +330,19 @@ Do not make a primary historically supported cross-domain claim until:
 ## Current public position
 
 IF-R004 is the mechanism-selection gate for the core series. Its primary evidence base is the **concept-aware/research-unaware application record**, with pre-concept and post-awareness material retained as separate evidence classes. At present it contains a developing comparative method, not evidence that any mechanism generalizes.
+
+## RA+ candidate transfer family — governed collective memory
+
+**Evidence state:** `NONEMPIRICAL-METHOD` / `PENDING-EXPERIMENT`  
+**Scope:** later validation only; it does not satisfy the historically blind IF-R004 entry gate.
+
+Governed collective memory is now a candidate mechanism family for later transfer testing **only if** IF-R003 first produces a supported mechanism result under a frozen topology protocol. Cross-domain evaluation should treat recall/coordination gains as insufficient when they are accompanied by authorization leakage, stale consensus, contradiction persistence, provenance loss, failed deletion/revocation, or context-cost inflation.
+
+If admitted later, mechanism identity should distinguish at minimum:
+
+- disposable shared blackboard;
+- unrestricted shared derived memory;
+- hybrid crystallized governed memory;
+- scoped-write/shared-read memory.
+
+A useful cross-domain result must preserve authority, provenance, isolation, and negative-test performance as well as task outcomes. A topology that improves recall while degrading those governance properties may be classified as boundary-conditioned or maladaptive rather than transferable.
