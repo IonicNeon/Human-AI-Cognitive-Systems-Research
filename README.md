@@ -96,3 +96,10 @@ These are methods and research infrastructure, not positive empirical results.
 ## Current state
 
 The public registry defines `IF-R001` through `IF-R011`. Their presence here does not imply completed data collection, validated results, peer review, or publication.
+
+
+## Research status update — 2026-08-26
+
+The core public methods surface now reflects the two-awareness Series-I scope and the working publication order **IF-R001 → IF-R003 → IF-R004 → IF-R002**. IF-R004 controls the final explanatory emphasis of IF-R002 without deleting the complete archival layer.
+
+Post-awareness (`RA+`) research now includes a **proposed** controlled collective-memory topology experiment comparing raw search, disposable blackboard, fully shared derived memory, hybrid crystallized governed memory, and an optional scoped-write/shared-read variant. This is published as methods/status only: no effectiveness or transfer result has been promoted.
