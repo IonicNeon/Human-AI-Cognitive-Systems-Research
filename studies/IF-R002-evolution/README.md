@@ -289,3 +289,14 @@ Do not claim an evolutionary law, adaptation mechanism, or stable pressure-respo
 ## Current public position
 
 IF-R002 is a methods-and-corpus study in progress. Its primary dataset is the **concept-aware/research-unaware observation window**, with earlier material retained as pre-concept baseline/context and later research-aware material retained separately. Candidate events and propositions remain provisional until corpus completion and frozen adjudication.
+
+## RA+ research input — collective/shared memory topology
+
+**Evidence state:** `NONEMPIRICAL-METHOD` / `PENDING-EXPERIMENT`  
+**Scope:** post-research-awareness (`RA+`) research input; not part of the primary historically blind Series-I corpus.
+
+On 2026-08-26 the research program added a sourced comparative review of multi-agent shared-memory, collaborative-memory, governed-memory, and raw-history/search approaches. The review produced a candidate selection-pressure/adaptation question for later longitudinal tracking: when coordination and continuity demands increase, should derived memory become shared across agents, and under what authority/provenance rules?
+
+This material does **not** establish that shared memory is effective or that it belongs in the historical Series-I mechanism set. For IF-R002 it is preserved as a time-bounded RA+ research/selection-pressure candidate whose eventual implementation, persistence, effect, and transfer remain unresolved.
+
+Candidate failure classes to track if the mechanism is implemented include stale-state propagation, contradiction persistence, provenance collapse, permission leakage, deletion/revocation failure, poisoning, opinion contamination, and loss of writer lineage.
