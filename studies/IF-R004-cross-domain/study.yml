@@ -1,11 +1,11 @@
 id: IF-R004
 slug: cross-domain
-title: Cross-Domain Generalization
-kind: conditional-comparative-study
-status: conditional
+title: Historically Blind Cross-Domain Generalization and Mechanism Selection
+kind: retrospective-within-case-comparative-study-with-prospective-validation
+status: method-design
 public_state: metadata-and-methods-only
 created: null
-question: Do core mechanisms generalize across materially different application environments?
+question: Do supported mechanisms preserve useful roles across materially different concept-aware, research-unaware application environments, and what boundary conditions limit those claims?
 parents:
   - id: IF-R003
     relation: extends

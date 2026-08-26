@@ -1,5 +1,5 @@
 registry_version: 0.1
-updated: '2026-08-24'
+updated: '2026-08-26'
 identity_rule: stable_research_ids_independent_of_publication_number
 public_registry: true
 research_objects:
@@ -23,11 +23,11 @@ research_objects:
     relation: extends
 - id: IF-R003
   slug: effectiveness
-  title: Prospective Effectiveness, Replay, and Mechanism Ablation
-  kind: prospective-experimental-study
+  title: Historically Blind Effectiveness, Replay, and Mechanism Ablation
+  kind: retrospective-within-case-replay-ablation-with-prospective-validation
   status: prespecification-in-progress
   public_state: methods-only
-  question: Does maturation of the architecture improve measurable knowledge-work performance and reduce classified failures?
+  question: Do candidate mechanisms improve measurable knowledge-work outcomes when replayed or ablated against concept-aware, research-unaware historical task episodes, with later prospective validation kept separate?
   parents:
   - id: IF-R001
     relation: tests
@@ -35,11 +35,11 @@ research_objects:
     relation: operationalizes
 - id: IF-R004
   slug: cross-domain
-  title: Cross-Domain Generalization
-  kind: conditional-comparative-study
-  status: conditional
+  title: Historically Blind Cross-Domain Generalization and Mechanism Selection
+  kind: retrospective-within-case-comparative-study-with-prospective-validation
+  status: method-design
   public_state: metadata-and-methods-only
-  question: Do core mechanisms generalize across materially different application environments?
+  question: Do supported mechanisms preserve useful roles across materially different concept-aware, research-unaware application environments, and what boundary conditions limit those claims?
   parents:
   - id: IF-R003
     relation: extends

@@ -1,11 +1,11 @@
 id: IF-R003
 slug: effectiveness
-title: Prospective Effectiveness, Replay, and Mechanism Ablation
-kind: prospective-experimental-study
+title: Historically Blind Effectiveness, Replay, and Mechanism Ablation
+kind: retrospective-within-case-replay-ablation-with-prospective-validation
 status: prespecification-in-progress
 public_state: methods-only
 created: null
-question: Does maturation of the architecture improve measurable knowledge-work performance and reduce classified failures?
+question: Do candidate mechanisms improve measurable knowledge-work outcomes when replayed or ablated against concept-aware, research-unaware historical task episodes, with later prospective validation kept separate?
 parents:
   - id: IF-R001
     relation: tests
