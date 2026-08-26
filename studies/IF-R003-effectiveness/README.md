@@ -310,3 +310,20 @@ No effectiveness claim should be promoted until:
 ## Current public position
 
 IF-R003 tests mechanisms motivated by IF-R001/IF-R002 using the **concept-aware/research-unaware task corpus** as its primary evidence base. Earlier material may support a separately labeled pre-concept baseline; later prospective work is a separate validation layer. At present IF-R003 contains a developing replay/ablation method, not evidence that Idea-Foundry improves knowledge-work outcomes.
+
+## RA+ candidate experiment — collective-memory topology
+
+**Evidence state:** `NONEMPIRICAL-METHOD` / `PENDING-EXPERIMENT`  
+**Status:** proposed only; not part of the frozen IF-R003 primary protocol unless admitted by a versioned amendment.
+
+A 2026-08-26 methods intake added a candidate controlled topology experiment for multi-agent memory. The proposed comparison holds model, roles, task suite, tools, source corpus, budgets, rubric, agent count, and retry policy constant while varying only the memory topology:
+
+- **T0 — canonical/raw-search baseline:** no cross-agent durable derived-memory write;
+- **T1 — shared disposable blackboard:** shared task state without persistent collective learning;
+- **T2 — fully shared derived read/write memory:** exposes upside together with contamination and stale-write risk;
+- **T3 — hybrid crystallized governed memory:** private scratch plus validated shared facts/rules/evidence pointers;
+- **T4 — scoped-write/shared-read namespaces:** optional variant in which writers retain scoped authority while approved team retrieval spans namespaces.
+
+Candidate evaluation families include retrieval accuracy, cross-source synthesis, superseded-state handling, contradiction handling, abstention, duplicate-work avoidance, handoff/restart recovery, writer attribution, deletion/revocation behavior, permission isolation, poisoning resistance, provenance preservation, and context-budget efficiency.
+
+The raw-history/search condition is mandatory: more structure must beat the simpler evidence-preserving baseline rather than merely appear more sophisticated. No effectiveness result exists yet, and no topology is presumed to win.
