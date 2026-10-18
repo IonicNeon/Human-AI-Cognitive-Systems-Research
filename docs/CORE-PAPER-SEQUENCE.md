@@ -1,5 +1,10 @@
 # Core Four-Paper Sequence
 
+## Functional-capability and public-benchmark reframing (proposed, 2026-10-18)
+
+**Series I asks what functionality was actually achieved and whether its performance is defensible against matched baselines**, not merely when architecture appeared. See [Functional Capability and Public-Benchmark Comparison Protocol](./FUNCTIONAL-CAPABILITY-BENCHMARK-PROTOCOL.md). The term "AI second brain" is a testable classification rather than an assumed property. Code historical states separately as proposed, implemented, fixture-tested, real-task demonstrated, and comparatively validated; do not back-project present-day implementations. Paper 1 reconstructs capability emergence; Paper 3 tests function and ablation; Paper 4 tests transfer and limits; Paper 2 (still finalized last) explains the capability evolution and selection pressures. This is a **proposed methodological amendment**, not an empirical finding or change to the two-awareness-boundary design.
+
+
 The stable research identities `IF-R001` through `IF-R004` are not publication-order numbers. Research identity and publication order are separate.
 
 ## Shared Series-I observation window
