@@ -1,5 +1,10 @@
 # IF-R002 — Longitudinal Capability Evolution and Selection Pressures
 
+## Functional reframing proposed 2026-10-18
+
+Retain the exhaustive, separately coded historical corpus; add a time-indexed capability-state ledger as the primary explanatory substrate. Describe transitions from design -> implementation -> executable verification -> real task use -> benchmarked outcome, including stalled transitions, reversions, local failures, and costs. Analyze pressure-response sequences against these **functionally evidenced** states rather than repository-growth counts or architecture labels. The external comparator literature supplies possible capability categories; it does not establish a historical causal influence or efficacy. Finalize this interpretation after IF-R003 and IF-R004 without allowing their results to censor negative archival cases. See [cross-paper protocol](../../docs/FUNCTIONAL-CAPABILITY-BENCHMARK-PROTOCOL.md).
+
+
 **Status:** corpus-and-adjudication-in-progress  
 **Public state:** metadata-and-methods-only  
 **Research class:** historically blind longitudinal observational study  
