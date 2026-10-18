@@ -1,5 +1,10 @@
 # IF-R004 — Historically Blind Cross-Domain Generalization and Mechanism Selection
 
+## Functional reframing proposed 2026-10-18
+
+Transfer now means preservation of a **verified function** under a stable operational definition and comparable task/evidence constraints, not merely reuse of a common repository template or vocabulary. For each domain test retrieval, state corrections, handoff/recovery, provenance, or task outcome only where observable; report denominator, missing evidence, cost and negative cases. Compare with available external literature only at commensurable task levels. A successful single-case, cross-folder reuse claim does not prove population-level or human-generalizable second-brain performance. Retain the existing eligibility and decision-gate rules. See [cross-paper protocol](../../docs/FUNCTIONAL-CAPABILITY-BENCHMARK-PROTOCOL.md).
+
+
 **Status:** conditional  
 **Public state:** metadata-and-methods-only  
 **Research class:** historically blind within-case comparative study with separate baseline and prospective-validation classes  

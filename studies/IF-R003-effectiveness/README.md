@@ -1,5 +1,10 @@
 # IF-R003 — Historically Blind Effectiveness, Replay, and Mechanism Ablation
 
+## Functional reframing proposed 2026-10-18
+
+The primary outcome becomes **successfully performed functions at the historical as-of state**, measured through eligible task episodes, not architecture presence. Alongside existing success/failure/recovery measures, test retrieval accuracy, source citation, temporal update, abstention, cross-session resume, cost, and unauthorized state promotion when an episode supports them. Match simple no-memory, raw-file/literal-search, full-context and basic retrieval baselines before attempting peer implementations. LoCoMo, LongMemEval, and LongMemEval-V2 offer published task constructions; a benchmark score may be claimed only after the exact harness is executed with transparent versions and denominators. Do not report benchmark scores based on conceptual similarity or literature leaderboard numbers. Continue distinguishing retrospective replay from `RA+` prospective validation. See [cross-paper protocol](../../docs/FUNCTIONAL-CAPABILITY-BENCHMARK-PROTOCOL.md).
+
+
 **Status:** prespecification-in-progress  
 **Public state:** methods-only  
 **Research class:** retrospective within-case replay/ablation study with separate prospective validation  
